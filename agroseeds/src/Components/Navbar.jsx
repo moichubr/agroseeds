@@ -4,7 +4,7 @@ const Navbar = () => {
 
     return(
         <header className="w-full h-16 bg-transparent fixed z-30">
-            <div className="flex items-center justify-center">
+            <nav className="flex items-center justify-center">
             <a href="#landing" className="text-gray-600 p-4">
                 INICIO
             </a>
@@ -21,10 +21,10 @@ const Navbar = () => {
                 QUIÉNES SOMOS?
             </a>
 
-            <a href="Contact" className="text-gray-600 p-2">
+            <a href="#contact" className="text-gray-600 p-2">
                 CONTACTO
             </a>
-            </div>
+            </nav>
            
         </header>
     )
