@@ -1,4 +1,4 @@
-import { useState } from 'react'
+
 import Landing from './Components/Landing'
 import AboutUs from './Components/AboutUs'
 import Services from './Components/Services'
@@ -10,7 +10,8 @@ import Navbar from './Components/Navbar'
 import './App.css'
 
 function App() {
-  // const [count, setCount] = useState(0)
+  
+
 
   return (
     <main>
