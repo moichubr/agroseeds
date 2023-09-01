@@ -26,12 +26,11 @@
 
 a {
   font-weight: 500;
-  color: #3d7935;
   text-decoration: inherit;
 }
-a:hover {
-  color: #3d7935;
-}
+/* a:hover {
+  font-weight: bold;
+} */
 
 body {
   /* margin: 0;
@@ -72,6 +71,7 @@ video{
  justify-content: center;
  margin-left: 8%;
 }
+
 
 .title{
   position: absolute;

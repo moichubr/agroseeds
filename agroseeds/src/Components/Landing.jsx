@@ -16,11 +16,14 @@ const Landing = () => {
     <section id="landing">
       <div className="main">
         <video src={videobg} autoPlay loop muted />
-        <div className="title text-white text-2xl">A G R O V E R S E</div>
         <div className="content text-white mt-28 ">
           <h2 className="text-2xl pl-2">MAS DE 60 AÑOS</h2>
           <h1 className="text-7xl">JUNTO AL CAMPO</h1>
+        <p className="text-4xl font-light">EXPERIENCIA, </p>
+        <p className="text-4xl font-light">COMPROMISO, </p>
+        <p className="text-4xl font-light">RESPONSABILIDAD.</p>
         </div>
+        
       </div>
     </section>
 
