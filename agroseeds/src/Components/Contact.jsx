@@ -1,5 +1,6 @@
-import {BsFillTelephoneFill} from "react-icons/bs"
+import {BsFillTelephoneFill, BsFillPhoneFill} from "react-icons/bs"
 import {MdLocationOn} from "react-icons/md"
+
 const Contact = () => {
 
     return(      
@@ -10,10 +11,10 @@ const Contact = () => {
             <p className="text-xl mt-2 font-light"> <span className="inline-flex"><MdLocationOn/> </span> Bvrd. Francou 1464, Villa Elisa, Entre Ríos</p>
             </div>
             <div className="flex flex-row lg:ml-16">
-            <p className="text-xl mt-2 font-light"><span className="inline-flex mr-2"> <BsFillTelephoneFill/> </span>(3447) 4801</p>
+            <p className="text-xl mt-2 font-light"><span className="inline-flex mr-2"> <BsFillTelephoneFill/> </span>(3447) 480125</p>
             </div>
             <div className="flex flex-row lg:ml-16">
-            <p className="text-xl mt-2 font-light"><span className="inline-flex mr-2 ">Celular: </span>(3447) 15625520 / 15640311</p>
+            <p className="text-xl mt-2 font-light"><span className="inline-flex mr-2 "> <BsFillPhoneFill /> </span>(3447) 15625520 (Fernando) || 15640311 (Martín)</p>
             </div>
 
         </div>
