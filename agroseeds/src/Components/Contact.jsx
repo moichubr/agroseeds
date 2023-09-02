@@ -1,12 +1,20 @@
+import {BsFillTelephoneFill} from "react-icons/bs"
+import {MdLocationOn} from "react-icons/md"
 const Contact = () => {
 
-    return(
-        <section id="contact" >
-        <div className="p-4 bg-green-900 text-white">
-            <span className="text-2xl font-bold p-4 mt-4">CONTACTO</span>
-            <p className="text-xl mt-2">Encontranos en Bvrd. Francou 1464</p>
-            <p className="text-xl mt-2"><span className="font-bold ">Teléfono: </span>(3447) 480177</p>
-            <p className="text-xl mt-2"><span className="font-bold ">Celular: </span>(3447) 15625520 / 15445678</p>
+    return(      
+        <section id="contact" className="section">
+        <div className="p-4 lg:pl-28 bg-green-950 text-white flex flex-col">
+            <span className="text-2xl font-light lg:p-2 lg:mt-2 lg:mb-2">Contacto</span>
+            <div className="flex flex-row lg:ml-16">
+            <p className="text-xl mt-2 font-light"> <span className="inline-flex"><MdLocationOn/> </span> Bvrd. Francou 1464, Villa Elisa, Entre Ríos</p>
+            </div>
+            <div className="flex flex-row lg:ml-16">
+            <p className="text-xl mt-2 font-light"><span className="inline-flex mr-2"> <BsFillTelephoneFill/> </span>(3447) 4801</p>
+            </div>
+            <div className="flex flex-row lg:ml-16">
+            <p className="text-xl mt-2 font-light"><span className="inline-flex mr-2 ">Celular: </span>(3447) 15625520 / 15640311</p>
+            </div>
 
         </div>
         </section>

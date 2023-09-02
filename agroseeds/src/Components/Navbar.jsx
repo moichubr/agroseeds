@@ -1,33 +1,38 @@
 const Navbar = () => {
 
     return(
+
         <header className="w-full h-16 bg-transparent fixed z-30">
-  <div className="container relative mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center max-w-full">
+  <div className="container relative mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center max-w-full">
     <a
       href="#about"
-      className="title ml-3 text-xl title-font font-medium text-white mb-4 md:mb-0"
+      className="title mx-auto lg:ml-3 text-xl font-bold  text-white items-left py-auto md:mb-0"
     >
-      A G R I C O L A total
+      A G R O S E E D
     </a>
-    <nav className="md:ml-2 md:py-1 md:pl-1 flex flex-wrap items-center justify-center text-base">
-      <a href="#landing" className="text-gray-600  hover:font-bold p-2 md:p-1">
+    <nav className="md:m-auto md:py-1 md:pr-1 flex flex-wrap items-center justify-center align-middle">
+      <a href="#landing" className="text-gray-600 hover:font-bold font-semibold p-2 md:p-1">
         INICIO
       </a>
-      <a href="#services" className="text-gray-600  hover:font-bold p-2 md:p-1">
+      <a href="#services" className="text-gray-600 font-semibold hover:font-bold p-2 md:p-1">
         SOLUCIONES
       </a>
-      <a href="#gallery" className="text-gray-600  hover:font-bold p-2 md:p-1">
+      <a href="#gallery" className="text-gray-600 font-semibold hover:font-bold p-2 md:p-1">
         GALERÍA
       </a>
-      <a href="#about" className="text-gray-600  hover:font-bold p-2 md:p-1">
+      <a href="#about" className="text-gray-600  font-semibold hover:font-bold p-2 md:p-1">
         QUIÉNES SOMOS?
       </a>
-      <a href="#contact" className="text-gray-600  hover:font-bold p-2">
+      <a href="#contact" className="text-gray-600  font-semibold hover:font-bold p-2">
         CONTACTO
       </a>
     </nav>
   </div>
 </header>
+
+
+
+
         // <header className="w-full h-16 bg-transparent fixed z-30">
         //     <div className="container relative mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center max-w-full">
         //       <a
