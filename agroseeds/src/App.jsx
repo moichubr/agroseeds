@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './App.css'
 import Landing from './Components/Landing'
 import AboutUs from './Components/AboutUs'
@@ -10,14 +10,14 @@ import Navbar from './Components/Navbar'
 function App() {
 
   return (
-    <main>
+    <div>
       <Navbar />
       <Landing />
       <AboutUs />
       <Services />
       <Gallery />
       <Contact />
-    </main>
+    </div>
   )
 }
 

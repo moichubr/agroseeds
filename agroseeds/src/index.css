@@ -8,16 +8,11 @@
 
 :root {
   font-family: 'Montserrat', sans-serif;
-  /* font-weight: 500; */
   margin: 0;
   padding: 0;
   max-width:1366px;
   overflow-x: hidden;
-
   color-scheme: light dark;
-  /* color: rgb(248, 248, 96); */
-  /* background-color: rgb(248, 248, 96); */
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -25,22 +20,12 @@
   -webkit-text-size-adjust: 100%;
 }
 
-a {
-  font-weight: 500;
-  text-decoration: inherit;
-}
-/* a:hover {
-  font-weight: bold;
-} */
+
 
 body {
-  /* margin: 0;
-  display: flex;
-  place-items: center; */
   min-width: 320px;
   min-height: 100vh;
   max-width: 1366px;
-  /* background-color: rgb(117, 139, 66)	; */
   background-color: whitesmoke
 }
 

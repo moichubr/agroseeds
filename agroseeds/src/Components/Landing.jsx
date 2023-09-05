@@ -1,16 +1,8 @@
-
-// import {Cloudinary} from "@cloudinary/url-gen";
 import videobg from "../assets/videobg.mp4";
 
 const Landing = () => {
-  // Create a Cloudinary instance and set your cloud name.
-  // const cld = new Cloudinary({
-  //     cloud: {
-  //       cloudName: 'dqefppqdd'
-  //     }
-  //   });
 
-  //   const myVideo = "https://res.cloudinary.com/dqefppqdd/video/upload/v1693519029/WhatsApp_Video_2023-08-31_at_17.27.15_tktt3y.mp4"
+
 
   return (
 
