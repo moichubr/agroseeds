@@ -5,29 +5,29 @@ const Navbar = () => {
 
     return(
 
-        <header className="bg-transparent md:sticky top-0 z-10">
-        <div className="container relative mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center max-w-full">
+        <header className="lg:bg-transparent sticky top-0  bg-slate-300 z-10">
+        <div className="container relative mx-auto flex flex-wrap p-3 flex-col md:flex-row items-center max-w-full">
           <a
             href="#landing"
-            className="ml-3 text-xl title-font font-medium text-white mb-4 md:mb-0 lg:ml-40"
+            className="text-xl font-medium text-gray-500 mb-2 lg:ml-40"
           >
            A G R O S E E D
           </a>
   
-          <nav className=" md:ml-4 md:py-1 md:pl-4 	lg:ml-16 flex flex-wrap items-center text-base justify-center">
-            <a href="#landing" className="mr-5 text-gray-500 hover:font-bold">
+          <nav className="py-1 pl-4 text-sm lg:ml-16 flex flex-wrap items-center lg:text-base justify-center">
+            <a href="#landing" className="mr-3 text-gray-500 hover:font-bold">
               INICIO
             </a>
-            <a href="#about" className="mr-5 text-gray-500 hover:font-bold">
+            <a href="#about" className="mr-3 text-gray-500 hover:font-bold">
               QUIÉNES SOMOS?
             </a>
-            <a href="#services" className="mr-5 text-gray-500 hover:font-bold">
+            <a href="#services" className="mr-3 text-gray-500 hover:font-bold">
               SERVICIOS
             </a>
-            <a href="#gallery" className="mr-5 text-gray-500 hover:font-bold">
+            <a href="#gallery" className="mr-3 text-gray-500 hover:font-bold">
               GALERÍA
             </a>
-            <a href="#contact" className="mr-5 text-gray-500 hover:font-bold">
+            <a href="#contact" className="mr-3 text-gray-500 hover:font-bold">
               CONTACTO
             </a>
           </nav>

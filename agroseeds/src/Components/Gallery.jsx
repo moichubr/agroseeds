@@ -1,11 +1,9 @@
-// import {Cloudinary} from "@cloudinary/url-gen";
 import { images } from "../data";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import {RxDotFilled} from "react-icons/rx"
 import {useState} from "react"
 
 const Gallery = () => {
-  // const cld = new Cloudinary({cloud: {cloudName: 'dqefppqdd'}});
 const [currentIndex, setCurrentIndex] = useState(0)
 
 const prevSlide = () => {
