@@ -5,11 +5,11 @@ const Navbar = () => {
 
     return(
 
-        <header className="lg:bg-transparent sticky top-0  bg-slate-300 z-10">
+        <header className="sticky top-0  bg-slate-300 z-10">
         <div className="container relative mx-auto flex flex-wrap p-3 flex-col md:flex-row items-center max-w-full">
           <a
             href="#landing"
-            className="text-xl font-medium text-gray-500 mb-2 lg:ml-40"
+            className="text-xl font-semibold text-gray-500 lg:ml-40"
           >
            A G R O S E E D
           </a>
@@ -27,7 +27,7 @@ const Navbar = () => {
             <a href="#gallery" className="mr-3 text-gray-500 hover:font-bold">
               GALERÍA
             </a>
-            <a href="#contact" className="mr-3 text-gray-500 hover:font-bold">
+            <a href="#contact" className="text-gray-500 hover:font-bold">
               CONTACTO
             </a>
           </nav>
