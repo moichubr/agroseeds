@@ -27,7 +27,7 @@ const goToSlide = (imgIndex) => {
       className="mb-6 "
     >
         <div className="max-w-[1100px] h-[580px] w-full m-auto py-16 px-16 relative group">
-        <span className="text-2xl font-light text-white bg-green-950 px-4 py-2 rounded-md items-center justify-center lg:p-2 lg:mt-2 lg:mb-2">Galería de imágenes</span>
+        <span className="text-xl font-light text-white bg-green-950 px-4 py-2 rounded-md items-center justify-center lg:p-2 lg:mt-2 lg:mb-2">Galería de imágenes</span>
       <div
         style={{ backgroundImage: `url(${images[currentIndex].url})` }}
         className="w-full h-full rounded-2xl bg-center bg-contain lg:bg-cover bg-no-repeat duration-500 lg:mt-6"
