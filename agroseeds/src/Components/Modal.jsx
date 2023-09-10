@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 const Modal = ({visible, onClose, children}) => {
     console.log('content', children)
     if (!visible) return null;
@@ -17,7 +19,16 @@ const Modal = ({visible, onClose, children}) => {
         );
     };
     
+    
     export default Modal;
+    
+    Modal.propTypes = {
+      visible: PropTypes.bool,
+      children: PropTypes.string,
+      onClose: PropTypes.func
+
+    }
+
     //   <div className="fixed inset-0 flex items-center justify-center z-50">
     //     <div className="modal-container">
     //       <button className="modal-close" onClick={onClose}>

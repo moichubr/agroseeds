@@ -26,7 +26,7 @@ const Services = () => {
         "Lino",
         "Consulte otros",
       ],
-      detalle: "Al trabajar con nosotros dispondrá de 3 máquinas New Holland y 3 tractores con tolva con balanza permitiendo llevar un control del rinde. Contamos con 2 cabezales maiceros de 8 surcos a 52cm, 3 cabezales sojeros (dos de 19 pies y uno de 23 pies), un cabezal arrocero de 19 pies, cabezal recolector para cultivos como avena, coreandro, regrass. Nuestras máquinas cuentan con picador de paja, desparramador de granza y son doble tracción pudiendo acceder a terrenos anegados sin dificultad.",
+      detalle: "Al trabajar con nosotros dispondrá de 3 máquinas <b>New Holland</b> y 3 tractores con tolva con balanza que permiten llevar un control del rinde.<br>Contamos con:<br>- 2 cabezales maiceros de 8 surcos a 52cm <br>- 3 cabezales sojeros (dos de 19 pies y uno de 23 pies)<br>- cabezal arrocero de 19 pies <br>- cabezal recolector para cultivos como avena, coreandro, regrass.<br>Nuestras máquinas cuentan con picador de paja, desparramador de granza y son <b>doble tracción</b> pudiendo acceder a terrenos anegados sin dificultad.",
     },
     siembra: {
       cereales: [
@@ -43,7 +43,7 @@ const Services = () => {
     },
     otros_servicios: {
       servicios: ["Fertilización", "Acarreo"],
-      detalle: "detalle otros servicios",
+      detalle: "Disponemos de 3 tractores con tolva con balanza con una capacidad de carga de xxx kg para el acarreo de granos.<br> Fertilización terrestre con urea,"
     },
     taller: {
       servicios: [
@@ -53,8 +53,9 @@ const Services = () => {
         "Fresado",
         "Servicio de tornería",
         "Soldaduras en general",
+        "Consulte por trabajos especiales"
       ],
-      detalle: "detalle taller",
+      detalle:"Tenemos un taller completo, con personal altamente capacitado con mas de 30 años de experiencia en el rubro. Cuidamos cada detalle, caracterizándonos por entregar trabajos de alta calidad. Ofrecemos:<br>-Servicio de tornería y soldadura en general.<br>-Reparación de maquinarias agrícolas (tractores, sembradoras, cosechadoras).<br>-Rectificado y balanceo de ejes de hasta xx metros.<br>-Fresado (producción de engranajes, kslkdlsk, xslksl).<br>-Consulte por trabajos especiales.",
     },
   };
 
@@ -159,7 +160,7 @@ const Services = () => {
           <Modal
             visible={isModalOpen}
             onClose={closeModal}
-          > {modalContent} </Modal>
+          > <div dangerouslySetInnerHTML={{__html: modalContent}}></div> </Modal>
         </div>
       </div>
     </section>
@@ -167,3 +168,5 @@ const Services = () => {
 };
 
 export default Services;
+
+// {modalContent}
