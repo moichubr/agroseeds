@@ -10,7 +10,7 @@ const Modal = ({visible, onClose, children}) => {
     }
   
     return (
-        <div onClick={handleOnClose} className="fixed inset-0 bg-black bg-opacity-25 backdrop-blur-sm flex items-center justify-center w-full h-auto">
+        <div onClick={handleOnClose} className="fixed inset-0 z-30 bg-black bg-opacity-25 backdrop-blur-sm flex items-center justify-center w-full h-auto">
         <div className="flex flex-col items-center bg-white w-[90%] p-6 rounded lg:w-[60%] h-auto">  
             <p className="text-black text-lg text-center">{children}</p>
          <div className="w-fit  justify-center mt-3 cursor-pointer" onClick={handleOnClose}><AiOutlineCloseCircle size={30} className="text-slate-500"/></div>

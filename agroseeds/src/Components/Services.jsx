@@ -43,7 +43,7 @@ const Services = () => {
     },
     otros_servicios: {
       servicios: ["Fertilización", "Acarreo"],
-      detalle: "Disponemos de 3 tractores con tolva con balanza con una capacidad de carga de xxx kg para el acarreo de granos.<br> Fertilización terrestre con urea,"
+      detalle: "Disponemos de 3 tractores con tolva con balanza con capacidad de carga de 14 y 17 toneladas para el acarreo de granos.<br> Fertilización terrestre de 30 metros de ancho por pasada."
     },
     taller: {
       servicios: [
@@ -55,21 +55,22 @@ const Services = () => {
         "Soldaduras en general",
         "Consulte por trabajos especiales"
       ],
-      detalle:"Tenemos un taller completo, con personal altamente capacitado con mas de 30 años de experiencia en el rubro. Cuidamos cada detalle, caracterizándonos por entregar trabajos de alta calidad. Ofrecemos:<br>-Servicio de tornería y soldadura en general.<br>-Reparación de maquinarias agrícolas (tractores, sembradoras, cosechadoras).<br>-Rectificado y balanceo de ejes de hasta xx metros.<br>-Fresado (producción de engranajes, kslkdlsk, xslksl).<br>-Consulte por trabajos especiales.",
+      detalle:"Tenemos un taller completo, con personal altamente capacitado con mas de 30 años de experiencia en el rubro. Cuidamos cada detalle, caracterizándonos por entregar trabajos de alta calidad.<br>Ofrecemos:<br>-Servicio de tornería y soldadura en general.<br>-Reparación de maquinarias agrícolas (tractores, sembradoras, cosechadoras).<br>-Rectificado y balanceo de ejes de hasta xx metros.<br>-Fresado (producción de engranajes, kslkdlsk, xslksl).<br>-Consulte por trabajos especiales.",
     },
   };
 
   return (
-    <section id="services" className=" pb-6">
-      <div className="container">
-        <div className="text-white lg:h-auto lg:p-4 lg:ml-44 lg:text-left text-center text-xl font-thin pt-12 lg:pt-12">
-          <span className="text-xl bg-green-950  p-4 py-2 px-4 items-center rounded-md ">
+    <section id="services" >
+      <div className="container mx-auto">
+        <div className="text-white lg:h-auto text-center font-thin pt-6 lg:pt-12">
+          {/* <span className="text-xl bg-green-950 p-4 py-2 px-4 items-center rounded-md ">
             Servicios
-          </span>
+          </span> */}
+          <span className="text-green-800 text-6xl font-semibold">SERVICIOS</span>
         </div>
 
-        <div className="lg:flex lg:flex-row flex flex-col mx-auto w-[75%] p-4 mt-8 lg:mt-2  text-white lg:justify-center flex-nowrap lg:w-full lg:mx-10">
-          <div className="border rounded-md border-gray-600 shadow-xl p-4 my-4 lg:mr-4">
+        <div className="lg:flex lg:flex-row flex flex-col mx-auto w-[75%] p-4 mt-8 lg:mt-2  text-white lg:justify-center flex-nowrap lg:w-full ">
+          <div className="border rounded-md border-gray-300 shadow-2xl p-4 my-4 lg:mr-4">
             <h3 className="text-xl font-semibold mb-2 text-green-950">
               Siembra
             </h3>
@@ -85,13 +86,13 @@ const Services = () => {
             <button
               onClick={()=> {setIsModalOpen(true);
                  setModalContent(data.siembra.detalle)}}
-              className="text-white bg-green-700 py-2 px-2 rounded-3xl float-right mt-4"
+              className="text-white bg-green-700 py-2 px-2 rounded-3xl float-right  mt-4 hover:scale-95 transition"
             >
               Ver mas
             </button>
           </div>
 
-          <div className="border rounded-md border-gray-600 shadow-xl p-4 my-4 lg:mr-4">
+          <div className="border rounded-md border-gray-300 shadow-2xl p-4 my-4 lg:mr-4">
             <h1 className="text-xl font-semibold mb-2 text-green-950">
               Cosecha
             </h1>
@@ -107,13 +108,13 @@ const Services = () => {
             <button
               onClick={()=> {setIsModalOpen(true);
                 setModalContent(data.trilla.detalle)}}
-              className="text-white bg-green-700 py-2 px-2 rounded-3xl  float-right mt-4"
+              className="text-white bg-green-700 py-2 px-2 rounded-3xl  float-right mt-4 hover:scale-95 transition"
             >
               Ver mas
             </button>
           </div>
 
-          <div className="border rounded-md border-gray-600 shadow-xl p-4 my-4 lg:mr-4">
+          <div className="border rounded-md border-gray-300 shadow-2xl p-4 my-4 lg:mr-4">
             <h1 className="text-xl font-semibold mb-2 text-green-950">
               Taller
             </h1>
@@ -129,13 +130,13 @@ const Services = () => {
             <button
               onClick={()=> {setIsModalOpen(true);
                 setModalContent(data.taller.detalle)}}
-              className="text-white bg-green-700 py-2 px-2 rounded-3xl float-right mt-4"
+              className="text-white bg-green-700 py-2 px-2 rounded-3xl float-right mt-4 hover:scale-95 transition"
             >
               Ver mas
             </button>
           </div>
 
-          <div className="border rounded-md border-gray-600 shadow-xl p-4 my-4">
+          <div className="border rounded-md border-gray-300 shadow-2xl p-4 my-4">
             <h1 className="text-xl font-semibold mb-2 text-green-950">
               Otros servicios
             </h1>
