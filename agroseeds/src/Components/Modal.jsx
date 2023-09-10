@@ -1,7 +1,8 @@
 import PropTypes from "prop-types";
+import {AiOutlineCloseCircle} from "react-icons/ai"
 
 const Modal = ({visible, onClose, children}) => {
-    console.log('content', children)
+    // console.log('content', children)
     if (!visible) return null;
 
     const handleOnClose = () => {
@@ -9,12 +10,12 @@ const Modal = ({visible, onClose, children}) => {
     }
   
     return (
-        <div onClick={handleOnClose} className="fixed inset-0 bg-black bg-opacity-25 backdrop-blur-sm flex items-center justify-center w-[90%] h-auto">
-        <div className="bg-white p-6 rounded w-[90%] h-auto">  
+        <div onClick={handleOnClose} className="fixed inset-0 bg-black bg-opacity-25 backdrop-blur-sm flex items-center justify-center w-full h-auto">
+        <div className="flex flex-col items-center bg-white w-[90%] p-6 rounded lg:w-[60%] h-auto">  
             <p className="text-black text-lg text-center">{children}</p>
+         <div className="w-fit  justify-center mt-3 cursor-pointer" onClick={handleOnClose}><AiOutlineCloseCircle size={30} className="text-slate-500"/></div>
         </div>
           
-         <button onClick={handleOnClose}>X</button>
       </div>
         );
     };
@@ -24,7 +25,7 @@ const Modal = ({visible, onClose, children}) => {
     
     Modal.propTypes = {
       visible: PropTypes.bool,
-      children: PropTypes.string,
+      children: PropTypes.array,
       onClose: PropTypes.func
 
     }
