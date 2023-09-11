@@ -6,4 +6,16 @@ export const images = [{
 },
 {
     url: "https://res.cloudinary.com/dqefppqdd/image/upload/v1693520684/WhatsApp_Image_2023-08-31_at_17.27.19_pn3soj.jpg"
+},
+{
+    url:"https://res.cloudinary.com/dqefppqdd/image/upload/v1694389957/WhatsApp_Image_2023-09-10_at_20.38.06_du64ag.jpg"
+},
+{
+    url:"https://res.cloudinary.com/dqefppqdd/image/upload/v1694389958/WhatsApp_Image_2023-09-10_at_20.38.04_racapa.jpg"
+},
+{
+    url:"https://res.cloudinary.com/dqefppqdd/image/upload/v1694389959/WhatsApp_Image_2023-09-10_at_20.38.08_yukiyo.jpg"
+},
+{
+    url:"https://res.cloudinary.com/dqefppqdd/image/upload/v1694389960/WhatsApp_Image_2023-09-10_at_20.38.02_omnslj.jpg"
 }]

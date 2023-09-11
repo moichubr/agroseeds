@@ -43,7 +43,7 @@ const Services = () => {
     },
     otros_servicios: {
       servicios: ["Fertilización", "Acarreo"],
-      detalle: "Disponemos de 3 tractores con tolva con balanza con capacidad de carga de 14 y 17 toneladas para el acarreo de granos.<br> Fertilización terrestre de 30 metros de ancho por pasada."
+      detalle: "Disponemos de 3 tractores con tolva con balanza con capacidad de carga de 14 y 17 toneladas para el acarreo de granos.<br>Fertilización terrestre de 30 metros de ancho por pasada."
     },
     taller: {
       servicios: [
@@ -55,7 +55,7 @@ const Services = () => {
         "Soldaduras en general",
         "Consulte por trabajos especiales"
       ],
-      detalle:"Tenemos un taller completo, con personal altamente capacitado con mas de 30 años de experiencia en el rubro. Cuidamos cada detalle, caracterizándonos por entregar trabajos de alta calidad.<br>Ofrecemos:<br>-Servicio de tornería y soldadura en general.<br>-Reparación de maquinarias agrícolas (tractores, sembradoras, cosechadoras).<br>-Rectificado y balanceo de ejes de hasta xx metros.<br>-Fresado (producción de engranajes, kslkdlsk, xslksl).<br>-Consulte por trabajos especiales.",
+      detalle:"Tenemos un taller completo, con personal altamente capacitado con mas de 30 años de experiencia en el rubro. Cuidamos cada detalle, caracterizándonos por entregar trabajos de alta calidad.<br>Ofrecemos:<br>-Servicio de tornería y soldadura en general<br>-Reparación de maquinarias agrícolas (tractores, sembradoras, cosechadoras)<br>-Rectificado de ejes de hasta 80cm<br>-Balanceo de ejes de hasta 1.30 metros (picadores)<br>-Fresado (producción de engranajes, estrías, chavetero)<br>-Consulte por trabajos especiales",
     },
   };
 
