@@ -63,16 +63,16 @@ const Services = () => {
 
   return (
     <section id="services" >
-      <div  style={{ backgroundImage: `url(${wallpaper})` }} className="container wallpaper mx-auto">
+      <div  style={{ backgroundImage: `url(${wallpaper})` }} className="container wallpaper mx-0">
         <div className="text-white lg:h-auto text-center font-thin pt-6 lg:pt-12">
           {/* <span className="text-xl bg-green-950 p-4 py-2 px-4 items-center rounded-md ">
             Servicios
           </span> */}
-          <span className="text-green-800 text-6xl font-semibold">SERVICIOS</span>
+          <span className="text-green-800 text-5xl font-light">NUESTROS <span className="font-semibold">SERVICIOS</span></span>
         </div>
 
         <div className="lg:flex lg:flex-row flex flex-col mx-auto w-[75%] p-4 mt-8 lg:mt-2  text-white lg:justify-center flex-nowrap lg:w-full ">
-          <div className="border rounded-md border-gray-300 shadow-2xl p-4 my-4 lg:mr-4">
+          <div className="rounded-md border-gray-300 shadow-2xl p-4 my-4 lg:mr-4">
             <h3 className="text-xl font-semibold mb-2 text-green-950">
               Siembra
             </h3>
@@ -94,7 +94,7 @@ const Services = () => {
             </button>
           </div>
 
-          <div className="border rounded-md border-gray-300 shadow-2xl p-4 my-4 lg:mr-4">
+          <div className="rounded-md border-gray-300 shadow-2xl p-4 my-4 lg:mr-4">
             <h1 className="text-xl font-semibold mb-2 text-green-950">
               Cosecha
             </h1>
@@ -116,7 +116,7 @@ const Services = () => {
             </button>
           </div>
 
-          <div className="border rounded-md border-gray-300 shadow-2xl p-4 my-4 lg:mr-4">
+          <div className="rounded-md border-gray-300 shadow-2xl p-4 my-4 lg:mr-4">
             <h1 className="text-xl font-semibold mb-2 text-green-950">
               Taller
             </h1>
@@ -138,7 +138,7 @@ const Services = () => {
             </button>
           </div>
 
-          <div className="border rounded-md border-gray-300 shadow-2xl p-4 my-4">
+          <div className="rounded-md border-gray-300 shadow-2xl p-4 my-4">
             <h1 className="text-xl font-semibold mb-2 text-green-950">
               Otros servicios
             </h1>

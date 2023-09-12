@@ -14,8 +14,8 @@ function App() {
     <div>
       <Navbar />
       <Landing />
-      <AboutUs />
       <Services />
+      <AboutUs />
       <Gallery />
       {/* <Contact /> */}
       <Footer />

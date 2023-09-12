@@ -112,5 +112,13 @@ video{
   max-width: 100%;
   height: auto;
   background-repeat: no-repeat;
+  background-position: 100%;
+  background-position-x: center;
+  background-size: cover;
+
+  @media (max-width: 768px) {
+    background-position-x: 100%;
+  }
 
 }
+

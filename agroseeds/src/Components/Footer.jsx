@@ -7,17 +7,17 @@ import {MdLocationOn} from "react-icons/md"
        
         <div className="w-full min-h-screen flex items-center justify-center bg-green-900">
                 <div className="w-full lg:w-4/5 lg:px-auto px-3 pt-3 text-white flex flex-col">
-                    <div className="lg:w-2/3 w-full text-xl font-bold lg:ml-[10%] ">
+                    <div className="lg:w-2/3 w-full text-xl font-bold lg:ml-[5%] ">
                         <h1 className="lg:w-full w-2/3">Cómo podemos ayudarte?
                             Ponte en contacto</h1>
                     </div>
 
                     <div className="lg:grid lg:grid-cols-2 w-full h-auto p-2">
                     <div className=" lg:col-span-1 py-2 text-slate-200 flex flex-col">
-        {/* <span className="text-xl text-green-950 lg:text-2xl font-semibold lg:mx-auto">Medios de contacto</span> */}
-           <div className="lg:ml-[5%]">
+        
+           <div className="lg:ml-[5%] ">
             <div className="flex flex-row lg:ml-16 mt-6">
-            <p className="text-md mt-2 font-medium"> <span className="inline-flex"><MdLocationOn size={25}/> </span> Bvrd. Francou 1464 - Villa Elisa, Entre Ríos</p>
+            <p className="text-md mt-2 font-medium "> <span className="inline-flex"><MdLocationOn size={25}/> </span> Bvrd. Francou 1464 - Villa Elisa, Entre Ríos</p>
             </div>
             <div className="flex flex-row lg:ml-16 mt-6">
             <p className="text-md mt-2 font-medium"><span className="inline-flex mr-2"> <BsFillTelephoneFill size={25} /> </span>(03447) 480125</p>
