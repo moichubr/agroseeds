@@ -2,6 +2,7 @@ import { images } from "../data";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import {RxDotFilled} from "react-icons/rx"
 import {useState} from "react"
+// import wallpaper from "../assets/wallpaper3.png"
 
 const Gallery = () => {
 const [currentIndex, setCurrentIndex] = useState(0)
@@ -26,6 +27,7 @@ const goToSlide = (imgIndex) => {
       id="gallery"
       className="mb-6 "
     >
+      {/* <div style={{ backgroundImage: `url(${wallpaper})` }}> */}
       <div className="container flex items-center justify-center mx-auto">
         <div className="lg:max-w-[1100px] lg:h-[580px] max-w-full h-[450px]  w-full m-auto py-8 px-8 lg:py-12 lg:px-16 relative group">
         {/* <span className="text-xl font-light text-white bg-green-950 px-4 py-2 rounded-md items-center justify-center lg:p-2 lg:mt-2 lg:mb-2">Galería de imágenes</span> */}
@@ -54,6 +56,7 @@ const goToSlide = (imgIndex) => {
       
       </div>
       </div>
+      {/* </div> */}
     </section>
   );
 };

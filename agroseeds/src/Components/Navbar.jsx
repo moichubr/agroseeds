@@ -5,29 +5,29 @@ const Navbar = () => {
 
     return(
 
-        <header className="sticky top-0  bg-slate-300 z-10">
+        <header className="sticky top-0  bg-green-900 z-10">
         <div className="container relative mx-auto flex flex-wrap p-3 flex-col md:flex-row items-center max-w-full">
           <a
             href="#landing"
-            className="text-xl font-semibold text-gray-500 lg:ml-40"
+            className="text-xl font-semibold text-gray-300 lg:ml-40"
           >
            A G R O S E E D
           </a>
   
           <nav className="py-1 pl-4 text-sm lg:ml-16 flex flex-wrap items-center lg:text-base justify-center">
-            <a href="#landing" className="mr-3 text-gray-500 hover:font-bold">
+            <a href="#landing" className="mr-3 text-gray-300 hover:font-bold">
               INICIO
             </a>
-            <a href="#about" className="mr-3 text-gray-500 hover:font-bold">
+            <a href="#about" className="mr-3 text-gray-300 hover:font-bold">
               QUIÉNES SOMOS?
             </a>
-            <a href="#services" className="mr-3 text-gray-500 hover:font-bold">
+            <a href="#services" className="mr-3 text-gray-300 hover:font-bold">
               SERVICIOS
             </a>
-            <a href="#gallery" className="mr-3 text-gray-500 hover:font-bold">
+            <a href="#gallery" className="mr-3 text-gray-300 hover:font-bold">
               GALERÍA
             </a>
-            <a href="#contact" className="text-gray-500 hover:font-bold">
+            <a href="#contact" className="text-gray-300 hover:font-bold">
               CONTACTO
             </a>
           </nav>

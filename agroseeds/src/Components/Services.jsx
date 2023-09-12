@@ -1,5 +1,7 @@
 import { useState } from "react";
 import Modal from "./Modal";
+import wallpaper from "../assets/wallpaper5.png"
+
 
 const Services = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -61,7 +63,7 @@ const Services = () => {
 
   return (
     <section id="services" >
-      <div className="container mx-auto">
+      <div  style={{ backgroundImage: `url(${wallpaper})` }} className="container wallpaper mx-auto">
         <div className="text-white lg:h-auto text-center font-thin pt-6 lg:pt-12">
           {/* <span className="text-xl bg-green-950 p-4 py-2 px-4 items-center rounded-md ">
             Servicios
