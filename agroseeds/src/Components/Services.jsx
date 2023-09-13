@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Modal from "./Modal";
-import wallpaper from "../assets/wallpaper5.png"
+import wallpaper from "../assets/wallpaper6.png"
 
 
 const Services = () => {
@@ -63,7 +63,7 @@ const Services = () => {
 
   return (
     <section id="services" >
-      <div  style={{ backgroundImage: `url(${wallpaper})` }} className="container wallpaper mx-0">
+      <div  style={{ backgroundImage: `url(${wallpaper})` }} className="container wallpaper mx-0 pb-20">
         <div className="text-white lg:h-auto text-center font-thin pt-6 lg:pt-12">
           {/* <span className="text-xl bg-green-950 p-4 py-2 px-4 items-center rounded-md ">
             Servicios
@@ -72,9 +72,9 @@ const Services = () => {
         </div>
 
         <div className="lg:flex lg:flex-row flex flex-col mx-auto w-[75%] p-4 mt-8 lg:mt-2  text-white lg:justify-center flex-nowrap lg:w-full ">
-          <div className="rounded-md border-gray-300 shadow-2xl p-4 my-4 lg:mr-4">
-            <h3 className="text-xl font-semibold mb-2 text-green-950">
-              Siembra
+          <div className="rounded-md border-gray-300 shadow-lg p-4 my-4 lg:mr-4">
+            <h3 className="text-xl font-semibold mb-2 text-center text-green-950">
+              SIEMBRA
             </h3>
             <ul className="pl-2">
               {data.siembra.cereales.map((el, index) => {
@@ -94,9 +94,9 @@ const Services = () => {
             </button>
           </div>
 
-          <div className="rounded-md border-gray-300 shadow-2xl p-4 my-4 lg:mr-4">
-            <h1 className="text-xl font-semibold mb-2 text-green-950">
-              Cosecha
+          <div className="rounded-md border-gray-300 shadow-lg p-4 my-4 lg:mr-4">
+            <h1 className="text-xl font-semibold mb-2 text-center text-green-950">
+              COSECHA
             </h1>
             <ul className="pl-2">
               {data.trilla.cereales.map((el, index) => {
@@ -116,9 +116,9 @@ const Services = () => {
             </button>
           </div>
 
-          <div className="rounded-md border-gray-300 shadow-2xl p-4 my-4 lg:mr-4">
-            <h1 className="text-xl font-semibold mb-2 text-green-950">
-              Taller
+          <div className="rounded-md border-gray-300 shadow-lg p-4 my-4 lg:mr-4">
+            <h1 className="text-xl font-semibold mb-2 text-center text-green-950">
+              TALLER
             </h1>
             <ul className="pl-2">
               {data.taller.servicios.map((el, index) => {
@@ -138,9 +138,9 @@ const Services = () => {
             </button>
           </div>
 
-          <div className="rounded-md border-gray-300 shadow-2xl p-4 my-4">
-            <h1 className="text-xl font-semibold mb-2 text-green-950">
-              Otros servicios
+          <div className="rounded-md border-gray-300 shadow-lg p-4 my-4">
+            <h1 className="text-xl font-semibold mb-2 text-center text-green-950">
+              OTROS SERVICIOS
             </h1>
             <ul className="pl-2">
               {data.otros_servicios.servicios.map((el, index) => {

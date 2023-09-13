@@ -25,8 +25,8 @@ import {MdLocationOn} from "react-icons/md"
             <div className="flex flex-row lg:ml-16 mt-6">
             <span className="inline-flex mr-2 mt-3"> <BsFillPhoneFill size={25}/> </span>
             <div>
-            <p className="text-md mt-2 font-medium ">(03447) 15625520 (Fernando)</p>
-            <p className="text-md mt-2 font-medium ">(03447) 15640311 (Martín)</p>
+            <p className="text-md mt-2 font-medium ">(03447) 15625520 (Fernando Bouvet)</p>
+            <p className="text-md mt-2 font-medium ">(03447) 15640311 (Martín Blanc)</p>
             </div>
             </div>
             </div>
