@@ -13,20 +13,21 @@ import {MdLocationOn} from "react-icons/md"
                     </div>
 
                     <div className="lg:grid lg:grid-cols-2 w-full h-auto p-2">
-                    <div className=" lg:col-span-1 py-2 text-slate-200 flex flex-col">
+                    <div className=" lg:col-span-1 pt-8 pb-2 text-slate-200 flex flex-col">
         
            <div className="lg:ml-[5%] ">
-            <div className="flex flex-row lg:ml-16 mt-6">
-            <p className="text-md mt-2 font-medium "> <span className="inline-flex"><MdLocationOn size={25}/> </span> Bvrd. Francou 1464 - Villa Elisa, Entre Ríos</p>
+            <span className="flex lg:justify-center justify-start text-lg font-light">ADMINISTRACIÓN & TALLER</span>
+            <div className="flex flex-row lg:ml-16">
+            <p className="text-md mt-2 font-medium "> <span className="inline-flex"><MdLocationOn size={20}/> </span> Bvrd. Francou 1464 - Villa Elisa, Entre Ríos</p>
             </div>
-            <div className="flex flex-row lg:ml-16 mt-6">
-            <p className="text-md mt-2 font-medium"><span className="inline-flex mr-2"> <BsFillTelephoneFill size={25} /> </span>(03447) 480125</p>
+            <div className="flex flex-row lg:ml-16 mt-1">
+            <p className="text-md font-medium"><span className="inline-flex mr-2"> <BsFillTelephoneFill size={20} /> </span>(03447) 480125</p>
             </div>
-            <div className="flex flex-row lg:ml-16 mt-6">
-            <span className="inline-flex mr-2 mt-3"> <BsFillPhoneFill size={25}/> </span>
+            <div className="flex flex-row lg:ml-16 mt-10">
+            <span className="inline-flex mr-2 mt-3"> <BsFillPhoneFill size={20}/> </span>
             <div>
-            <p className="text-md mt-2 font-medium ">(03447) 15625520 (Fernando Bouvet)</p>
             <p className="text-md mt-2 font-medium ">(03447) 15640311 (Martín Blanc)</p>
+            <p className="text-md mt-2 font-medium ">(03447) 15625520 (Fernando Bouvet)</p>
             </div>
             </div>
             </div>
@@ -55,7 +56,7 @@ import {MdLocationOn} from "react-icons/md"
                     <div className="flex flex-col">
                       
                         <hr className="border-gray-500 mt-12 w-full"/>
-                        <p className="w-full text-center mt-12 text-gray-500">Copyright © 2023 Moira Brun</p>
+                        <p className="w-full text-center mt-12 text-gray-500">Copyright © 2023 Dev. Moira Brun | PH&Video: Luciano Durand</p>
                         <p className="w-full text-center mb-4 text-gray-500">Contacto: brunmoira@gmail.com</p>
                     </div>
                 </div>

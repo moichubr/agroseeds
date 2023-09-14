@@ -10,7 +10,7 @@ const AboutUs = () => {
       <p className="pt-4">
         Nuestro origen se remonta a mas de 60 años atrás, cuando las máquinas eran a vapor y se cosechaba a mano, bajo la firma Orlando Bouvet e Hijos S.R.L. Durante muchos años nos hemos destacado en la labor agrícola en Entre Ríos y Corrientes.
       </p>
-      <p className="pt-4">Desde hace algunos años hemos acoplado el servicio de trilla con la siembra directa, dando origen a Agroseed, que busca dar una solución a todo el proceso agrícola.</p>
+      <p className="pt-4">Desde hace algunos años hemos acoplado el servicio de trilla con la siembra directa, dando origen a Agroseed, que busca dar una solución a esta parte del proceso agrícola.</p>
     
       <p className="pt-4">
         La excelencia en nuestra labor es lo que nos identifica. Contamos con un equipo humano consolidado, con vasta experiencia y sólidos conocimientos en todo el proceso agrícola garantizando un resultado destacable.
