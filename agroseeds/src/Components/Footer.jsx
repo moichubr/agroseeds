@@ -2,6 +2,10 @@ import {BsFillTelephoneFill, BsFillPhoneFill} from "react-icons/bs"
 import {MdLocationOn} from "react-icons/md"
 
   const Footer = () => {
+
+    function handleClick () {
+        window.location.href = "https://api.whatsapp.com/send?phone=3447640311"; //abre una nueva pestaña a diferencia de location.href que abre en la misma pestaña
+    }
    
     return(
        
@@ -50,7 +54,7 @@ import {MdLocationOn} from "react-icons/md"
 
                     {/* <div className="flex mt-8 flex-col md:flex-row md:justify-between"> */}
                         <div className="w-44 pt-6 md:pt-0 lg:ml-[15%] mt-8 justify-center mx-auto">
-                            <button className="bg-red-500 justify-center text-center rounded-lg shadow px-10 py-3 flex items-center ">Consultar</button>
+                            <button onClick={handleClick} className="bg-red-500 justify-center text-center rounded-lg shadow px-10 py-3 flex items-center ">Consultar</button>
                         {/* </div> */}
                     </div>
                     <div className="flex flex-col">
