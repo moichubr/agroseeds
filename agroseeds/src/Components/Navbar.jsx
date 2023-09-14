@@ -18,11 +18,11 @@ const Navbar = () => {
             <a href="#landing" className="mr-6  hover:font-bold">
               INICIO
             </a>
-            <a href="#about" className="mr-6 hover:font-bold">
-              QUIÉNES SOMOS?
-            </a>
             <a href="#services" className="mr-6 hover:font-bold">
               SERVICIOS
+            </a>
+            <a href="#about" className="mr-6 hover:font-bold">
+              QUIÉNES SOMOS?
             </a>
             <a href="#gallery" className="mr-6  hover:font-bold">
               GALERÍA
