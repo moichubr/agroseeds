@@ -7,7 +7,7 @@ import Gallery from './Components/Gallery'
 import Image from './Components/Image'
 import Navbar from './Components/Navbar'
 import Footer from './Components/Footer'
-
+import WhatsappBtn from './Components/WhatsappBtn'
 function App() {
 
   return (
@@ -18,7 +18,7 @@ function App() {
       <Image />
       <AboutUs />
       <Gallery />
-      {/* <Contact /> */}
+      <WhatsappBtn />
       <Footer />
     </div>
   )
