@@ -8,7 +8,7 @@ import {MdLocationOn} from "react-icons/md"
     }
    
     return(
-       
+       <section id="contact">
         <div className="w-full min-h-screen flex items-center justify-center bg-green-900">
                 <div className="w-full lg:w-4/5 lg:px-auto px-3 pt-3 text-white flex flex-col">
                     <div className="lg:w-2/3 w-full text-xl font-bold lg:ml-[5%] ">
@@ -60,11 +60,12 @@ import {MdLocationOn} from "react-icons/md"
                     <div className="flex flex-col">
                       
                         <hr className="border-gray-500 mt-12 w-full"/>
-                        <p className="w-full text-center mt-12 text-gray-500">Copyright © 2023 Dev. Moira Brun | PH&Video: Luciano Durand</p>
+                        <p className="w-full text-center mt-12 text-gray-500">Copyright © 2023 Dev. Moira Brun | PH&Video: Luciano Durand - Todos los derechos reservados.</p>
                         <p className="w-full text-center mb-4 text-gray-500">Contacto: brunmoira@gmail.com</p>
                     </div>
                 </div>
             </div>
+            </section>
 
         )
 }

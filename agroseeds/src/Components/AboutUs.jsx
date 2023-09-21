@@ -6,7 +6,7 @@ const AboutUs = () => {
     return(
         <section id="about" style={{ backgroundImage: `url(${bg})` }} className="bg-no-repeat lg:mt-16 mt-10 object-cover ">
     <div className=" text-center text-green-900">
-    <span className=" lg:text-5xl text-4xl px-4 rounded-md font-extralight">LA <span className="font-semibold">EMPRESA</span></span>
+    <span className="lg:text-4xl text-3xl px-4 rounded-md font-extralight">LA <span className="font-semibold">EMPRESA</span></span>
     </div>
           <div className="lg:grid lg:grid-cols-2 lg:w-6/8">
 

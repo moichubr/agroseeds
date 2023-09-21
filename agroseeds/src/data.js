@@ -18,5 +18,8 @@ export const images = [{
 },
 {
     url:"https://res.cloudinary.com/dqefppqdd/image/upload/v1694389960/WhatsApp_Image_2023-09-10_at_20.38.02_omnslj.jpg"
+},
+{
+    url: "https://res.cloudinary.com/dqefppqdd/image/upload/v1695303403/AGROSEED/WhatsApp_Image_2023-09-20_at_12.38.57_qsfoou.jpg"
 }]
 
