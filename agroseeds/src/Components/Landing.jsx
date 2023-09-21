@@ -2,7 +2,7 @@
 
 
 const Landing = () => {
-  const video = "https://res.cloudinary.com/dqefppqdd/video/upload/v1693519029/WhatsApp_Video_2023-08-31_at_17.27.15_tktt3y.mp4"
+  const video = "https://res.cloudinary.com/dqefppqdd/video/upload/v1693519029/AGROSEED/WhatsApp_Video_2023-08-31_at_17.27.15_tktt3y.mp4"
 
   return (
 

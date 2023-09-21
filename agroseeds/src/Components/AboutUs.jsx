@@ -1,7 +1,7 @@
 import Image from "./Image"
 
 const AboutUs = () => {
-  const bg = "https://res.cloudinary.com/dqefppqdd/image/upload/v1695245209/Dise%C3%B1o_sin_t%C3%ADtulo_2_onsiga.png"
+  const bg = "https://res.cloudinary.com/dqefppqdd/image/upload/v1695245209/AGROSEED/Dise%C3%B1o_sin_t%C3%ADtulo_2_onsiga.png"
 //actualmente
     return(
         <section id="about" style={{ backgroundImage: `url(${bg})` }} className="bg-no-repeat lg:mt-16 mt-10 object-cover ">
