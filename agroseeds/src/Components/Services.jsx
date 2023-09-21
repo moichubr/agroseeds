@@ -35,9 +35,9 @@ const Services = () => {
         "Contamos con:<br>- 2 cabezales maiceros de 8 surcos a 52cm <br>- 3 cabezales sojeros (dos de 19 pies y uno de 23 pies)<br>- cabezal arrocero de 19 pies <br>- cabezal recolector para cultivos como avena, coreandro, regrass.<br>Nuestras máquinas cuentan con picador de paja, desparramador de granza y son <b>doble tracción</b> pudiendo acceder a terrenos anegados sin dificultad.",
     },
     siembra: {
-      cereales: ["Soja", "Maíz", "Sorgo", "Lino", "Consulte otros"],
+      cereales: ["Soja", "Maíz", "Sorgo", "Consulte otros"],
       detalle:
-        "El servicio se realiza con sembradora de granos gruesos de 16 surcos a 52,5 cm.",
+        "El servicio se realiza con sembradora de granos gruesos de 16 surcos a 52,5 centímetros",
       modal: "modal siembra",
     },
     otros_servicios: {
