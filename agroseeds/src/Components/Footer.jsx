@@ -54,7 +54,7 @@ import {MdLocationOn} from "react-icons/md"
 
                     {/* <div className="flex mt-8 flex-col md:flex-row md:justify-between"> */}
                         <div className="w-44 pt-6 md:pt-0 lg:ml-[15%] mt-8 justify-center mx-auto">
-                            <button onClick={handleClick} className="bg-red-500 justify-center text-center rounded-lg shadow px-10 py-3 flex items-center ">Consultar</button>
+                            <button onClick={handleClick} className="bg-red-500 hover:bg-red-600 hover:scale-95 transition justify-center text-center rounded-lg shadow px-10 py-3 flex items-center ">Consultar</button>
                         {/* </div> */}
                     </div>
                     <div className="flex flex-col">

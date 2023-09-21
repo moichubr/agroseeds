@@ -19,3 +19,4 @@ export const images = [{
 {
     url:"https://res.cloudinary.com/dqefppqdd/image/upload/v1694389960/WhatsApp_Image_2023-09-10_at_20.38.02_omnslj.jpg"
 }]
+
