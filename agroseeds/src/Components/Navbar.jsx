@@ -5,7 +5,7 @@ const Navbar = () => {
 
     return(
 
-        <header className="sticky top-0  bg-green-500 z-10">
+        <header className="sticky top-0  bg-green-500 z-10 max-w-full">
         <div className="container relative mx-auto flex flex-wrap py-3 flex-col md:flex-row items-center justify-center max-w-full">
           <a
             href="#landing"
