@@ -72,66 +72,64 @@ const Services = () => {
       </div>
 
       <div className="lg:grid lg:grid-cols-2 lg:gap-4 flex flex-col mx-auto lg:w-[85%] w-[95%] p-4 mt-2  text-white lg:justify-around flex-nowrap lg:flex-wrap">
-
         <div className="col-span-1">
-       
-        <div className="flex flex-col items-center my-10 lg:w-full border shadow-lg rounded-3xl p-2 pb-4 lg:pb-6 lg:h-[400px]">
+          <div className="flex flex-col items-center my-10 lg:w-full border shadow-lg rounded-3xl p-2 pb-4 lg:pb-6 lg:h-[400px]">
             <div className="text-center w-fit p-2 mt-2 text-green-700">
-            <GiSickle size={30} />
+              <GiSickle size={30} />
+            </div>
+            <h3 className="text-xl font-semibold my-2 text-center text-green-950">
+              COSECHA
+            </h3>
+            <p
+              className="text-green-950 text-md lg:text-sm text-center lg:px-8 lg:mt-6"
+              dangerouslySetInnerHTML={{ __html: data.trilla.detalle }}
+            ></p>
+            <span className="text-green-950 font-semibold lg:pt-10 pt-4">
+              Qué cultivos cosechamos?
+            </span>
+            <div className="flex flex-wrap justify-center lg:text-sm ">
+              {data.trilla.cereales.map((el, index) => {
+                return (
+                  <p key={index} className="text-green-950 pr-1">
+                    {el}
+                  </p>
+                );
+              })}
+            </div>
+            <button
+              onClick={() => {
+                setIsModalOpen(true);
+                setModalContent(data.trilla.modal);
+              }}
+              className="text-white bg-green-700 py-2 px-6 rounded-3xl mt-4 lg:mt-10 hover:scale-95 transition"
+            >
+              Más detalles
+            </button>
           </div>
-          <h3 className="text-xl font-semibold my-2 text-center text-green-950">
-            COSECHA
-          </h3>
-          <p
-            className="text-green-950 text-md lg:text-sm text-center lg:px-8 lg:mt-6"
-            dangerouslySetInnerHTML={{ __html: data.trilla.detalle }}
-          ></p>
-          <span className="text-green-950 font-semibold lg:pt-10 pt-4">
-            Qué cultivos cosechamos?
-          </span>
-          <div className="flex flex-wrap justify-center lg:text-sm ">
-            {data.trilla.cereales.map((el, index) => {
-              return (
-                <p key={index} className="text-green-950 pr-1">
-                  {el}
-                </p>
-              );
-            })}
-          </div>
-          <button
-            onClick={() => {
-              setIsModalOpen(true);
-              setModalContent(data.trilla.modal);
-            }}
-            className="text-white bg-green-700 py-2 px-6 rounded-3xl mt-4 lg:mt-10 hover:scale-95 transition"
-          >
-            Más detalles
-          </button>
-        </div>
 
-        <div className="flex flex-col items-center mb-4 lg:my-10 lg:w-full border shadow-lg rounded-3xl p-2 lg:h-[380px]">
-          <div className="text-center w-fit p-2 mt-2 text-green-700">
-            <LiaSeedlingSolid size={30} />
-          </div>
-          <h3 className="text-xl font-semibold my-2 text-center text-green-950">
-            SIEMBRA
-          </h3>
-          <p className="text-green-950 text-md lg:text-sm text-center lg:px-8 lg:mt-6">
-            {data.siembra.detalle}
-          </p>
-          <span className="text-green-950 font-semibold lg:pt-6 mt-4">
-            Qué cultivos sembramos?
-          </span>
-          <div className="flex flex-wrap justify-center lg:text-sm my-4">
-            {data.siembra.cereales.map((el, index) => {
-              return (
-                <p key={index} className="text-green-950 pr-1">
-                  {el}
-                </p>
-              );
-            })}
-          </div>
-          {/* <button
+          <div className="flex flex-col items-center mb-4 lg:my-10 lg:w-full border shadow-lg rounded-3xl p-2 lg:h-[380px]">
+            <div className="text-center w-fit p-2 mt-2 text-green-700">
+              <LiaSeedlingSolid size={30} />
+            </div>
+            <h3 className="text-xl font-semibold my-2 text-center text-green-950">
+              SIEMBRA
+            </h3>
+            <p className="text-green-950 text-md lg:text-sm text-center lg:px-8 lg:mt-6">
+              {data.siembra.detalle}
+            </p>
+            <span className="text-green-950 font-semibold lg:pt-6 mt-4">
+              Qué cultivos sembramos?
+            </span>
+            <div className="flex flex-wrap justify-center lg:text-sm my-4">
+              {data.siembra.cereales.map((el, index) => {
+                return (
+                  <p key={index} className="text-green-950 pr-1">
+                    {el}
+                  </p>
+                );
+              })}
+            </div>
+            {/* <button
     onClick={() => {
       setIsModalOpen(true);
       setModalContent(data.siembra.modal);
@@ -140,59 +138,57 @@ const Services = () => {
   >
     Mas detalles
   </button> */}
-        </div>
-
+          </div>
         </div>
 
         <div className="col-span-1">
-
-        <div className="flex flex-col items-center my-10 lg:w-full border shadow-lg rounded-3xl p-2 pb-4 lg:h-[400px]">
-          <div className="text-center w-fit p-2 mt-2 text-green-700">
-            <LiaToolsSolid size={30} />
+          <div className="flex flex-col items-center my-10 lg:w-full border shadow-lg rounded-3xl p-2 pb-4 lg:h-[400px]">
+            <div className="text-center w-fit p-2 mt-2 text-green-700">
+              <LiaToolsSolid size={30} />
+            </div>
+            <h3 className="text-xl font-semibold my-2  text-center text-green-950">
+              TALLER
+            </h3>
+            <p
+              className="text-green-950 text-md lg:text-sm text-center lg:px-8 lg:mt-6"
+              dangerouslySetInnerHTML={{ __html: data.taller.detalle }}
+            ></p>
+            <span className="text-green-950 font-semibold lg:pt-6 pt-2">
+              Qué servicios ofrecemos?
+            </span>
+            <ul className="flex flex-wrap justify-center lg:text-sm">
+              {data.taller.servicios.map((el, index) => {
+                return (
+                  <li key={index} className="text-green-950 pr-2 lg:pr-2">
+                    {el}
+                  </li>
+                );
+              })}
+            </ul>
+            <button
+              onClick={() => {
+                setIsModalOpen(true);
+                setModalContent(data.taller.modal);
+              }}
+              className="text-white bg-green-700 py-2 px-6 rounded-3xl mt-4 hover:scale-95 transition"
+            >
+              Más detalles
+            </button>
           </div>
-          <h3 className="text-xl font-semibold my-2  text-center text-green-950">
-            TALLER
-          </h3>
-          <p
-            className="text-green-950 text-md lg:text-sm text-center lg:px-8 lg:mt-6"
-            dangerouslySetInnerHTML={{ __html: data.taller.detalle }}
-          ></p>
-          <span className="text-green-950 font-semibold lg:pt-6 pt-2">
-            Qué servicios ofrecemos?
-          </span>
-          <ul className="flex flex-wrap justify-center lg:text-sm">
-            {data.taller.servicios.map((el, index) => {
-              return (
-                <li key={index} className="text-green-950 pr-2 lg:pr-2">
-                  {el}
-                </li>
-              );
-            })}
-          </ul>
-          <button
-            onClick={() => {
-              setIsModalOpen(true);
-              setModalContent(data.taller.modal);
-            }}
-            className="text-white bg-green-700 py-2 px-6 rounded-3xl mt-4 hover:scale-95 transition"
-          >
-            Más detalles
-          </button>
-        </div>
 
-        <div className="flex flex-col items-center my-10 lg:w-full border shadow-lg rounded-3xl p-2 pb-3 lg:h-[380px]">
-          <div className="text-center w-fit p-2 mt-2 text-green-700">
-            <MdOutlineAgriculture size={35} />
-          </div>
-          <h3 className="text-xl font-semibold my-2 text-center text-green-950">
-            OTROS SERVICIOS
-          </h3>
-          <p className="text-green-950 text-md lg:text-sm text-center lg:mt-6 lg:px-8">
-            Para complementar la siembra y la cosecha, también ofrecemos los
-            servicios de <b>fertilización, acarreo y rastrón</b>.
-          </p>
+          <div className="flex flex-col items-center my-10 lg:w-full border shadow-lg rounded-3xl p-2 pb-3 lg:h-[380px]">
+            <div className="text-center w-fit p-2 mt-2 text-green-700">
+              <MdOutlineAgriculture size={35} />
+            </div>
+            <h3 className="text-xl font-semibold my-2 text-center text-green-950">
+              OTROS SERVICIOS
+            </h3>
+            <p className="text-green-950 text-md lg:text-sm text-center lg:mt-6 lg:px-8">
+              Para complementar la siembra y la cosecha, también ofrecemos los
+              servicios de <b>fertilización, acarreo y rastrón</b>.
+            </p>
 
-          {/* <div className="flex flex-wrap justify-center lg:justify-start lg:text-sm">
+            {/* <div className="flex flex-wrap justify-center lg:justify-start lg:text-sm">
     {data.otros_servicios.servicios.map((el, index) => {
       return (
         <p key={index} className="text-green-950 font-semibold pr-2">
@@ -202,12 +198,12 @@ const Services = () => {
     })}
   </div> */}
 
-          <p
-            className="text-green-950 text-md lg:text-sm text-center mt-4 lg:px-8 lg:py-6"
-            dangerouslySetInnerHTML={{ __html: data.otros_servicios.detalle }}
-          ></p>
+            <p
+              className="text-green-950 text-md lg:text-sm text-center mt-4 lg:px-8 lg:py-6"
+              dangerouslySetInnerHTML={{ __html: data.otros_servicios.detalle }}
+            ></p>
 
-          {/* <button
+            {/* <button
     onClick={() => {
       setIsModalOpen(true);
       setModalContent(data.otros_servicios.modal);
@@ -216,7 +212,7 @@ const Services = () => {
   >
     Mas detalles
   </button> */}
-        </div>
+          </div>
         </div>
 
         <Modal visible={isModalOpen} onClose={closeModal}>

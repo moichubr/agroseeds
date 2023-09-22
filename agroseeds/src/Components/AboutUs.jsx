@@ -1,17 +1,17 @@
 import Image from "./Image"
 
 const AboutUs = () => {
-  const bg = "https://res.cloudinary.com/dqefppqdd/image/upload/v1695245209/AGROSEED/Dise%C3%B1o_sin_t%C3%ADtulo_2_onsiga.png"
+  const bg = "https://res.cloudinary.com/dqefppqdd/image/upload/v1695407974/Untitled-18_01_Artboard_1_cj6gdr.png"
 //actualmente
     return(
-        <section id="about" style={{ backgroundImage: `url(${bg})` }} className="bg-no-repeat lg:mt-16 mt-10 object-cover ">
-    <div className=" text-center text-green-900">
+        <section id="about" style={{ backgroundImage: `url(${bg})` }} className="bg-no-repeat  object-contains ">
+    <div className=" text-center text-green-900 pt-8">
     <span className="lg:text-4xl text-3xl px-4 rounded-md font-extralight">LA <span className="font-semibold">EMPRESA</span></span>
     </div>
           <div className="lg:grid lg:grid-cols-2 lg:w-6/8">
 
   <div className="lg:col-span-1 text-white lg:h-auto text-center font-thin lg:py-10 pt-16 pb-4">
-    <div className="flex flex-col items-center lg:w-2/3 mx-auto px-2 w-full text-md lg:mt-10">
+    <div className="flex flex-col items-center lg:float-right lg:mr-6 lg:w-2/3 mx-auto px-2 w-full text-md lg:mt-10">
       <p className="pt-4">
         Nuestro origen se remonta a mas de 60 años atrás, cuando las máquinas eran a vapor y se cosechaba a mano, bajo la firma Orlando Bouvet e Hijos S.R.L. Durante muchos años nos hemos destacado en la labor agrícola en Entre Ríos y Corrientes.
       </p>
@@ -25,7 +25,7 @@ const AboutUs = () => {
       </p>
     </div>
   </div>
-<div className="lg:col-span-1 lg:w-3/4 mx-auto flex lg:justify-center lg:items-center">
+<div className="lg:col-span-1 lg:w-3/4 lg:ml-6 flex lg:float-left my-auto lg:items-center">
   <Image />
 </div>
 

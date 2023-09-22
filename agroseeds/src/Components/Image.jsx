@@ -5,7 +5,7 @@ const Image = () => {
     return(
 
         <div className="w-full ">
-            <img className="max-w-full w-full" src={image} alt="servicios agricolas"/>
+            <img className="max-w-full w-full rounded-3xl" src={image} alt="servicios agricolas"/>
         </div>
 
        
