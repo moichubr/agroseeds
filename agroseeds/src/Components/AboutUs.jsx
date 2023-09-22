@@ -5,7 +5,7 @@ const AboutUs = () => {
 //actualmente
     return(
         <section id="about" style={{ backgroundImage: `url(${bg})` }} className="bg-no-repeat  object-contains ">
-    <div className=" text-center text-green-900 pt-24">
+    <div className=" text-center text-green-900 pt-24 lg:pt-16">
     <span className="lg:text-4xl text-3xl px-4 rounded-md font-extralight">LA <span className="font-semibold">EMPRESA</span></span>
     </div>
           <div className="lg:grid lg:grid-cols-2 lg:w-6/8">
