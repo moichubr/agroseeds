@@ -14,8 +14,8 @@ const Landing = () => {
           <div className="w-[90%]">
           <h1 className="lg:text-7xl text-5xl font-medium">JUNTO AL <span className="text-5xl font-bold">CAMPO</span></h1>
           </div>
-        <p className="text-3xl font-extralight w-fit">EXPERIENCIA, </p>
-        <p className="text-3xl font-extralight w-fit">COMPROMISO, </p>
+        <p className="text-3xl font-extralight w-fit">EXPERIENCIA,</p>
+        <p className="text-3xl font-extralight w-fit">COMPROMISO,</p>
         <p className="text-3xl font-extralight w-fit">RESPONSABILIDAD.</p>
         </div>
         
