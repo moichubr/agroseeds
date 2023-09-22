@@ -10,7 +10,7 @@ const Landing = () => {
       <div className="main">
         <video src={video} autoPlay loop muted />
         <div className="content text-white mt-48 lg:mt-28 max-w-full">
-          <h2 className="text-2xl font-medium pl-2 w-fit">MAS DE 60 AÑOS</h2>
+          <h2 className="text-2xl font-medium pl-2 w-fit">MÁS DE 60 AÑOS</h2>
           <div className="w-[90%]">
           <h1 className="lg:text-7xl text-5xl font-medium">JUNTO AL <span className="text-5xl font-bold">CAMPO</span></h1>
           </div>

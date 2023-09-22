@@ -11,7 +11,8 @@ import WhatsappBtn from './Components/WhatsappBtn'
 function App() {
 
   return (
-    <div className='max-w-full w-[100vw] overflow-hidden'>
+    <>
+    {/* // <div className='max-w-full w-[100vw] overflow-hidden object-cover'> */}
       <Navbar />
       <Landing />
       <Services />
@@ -20,8 +21,10 @@ function App() {
       <Gallery />
       <WhatsappBtn />
       <Footer />
-    </div>
+      </>
   )
 }
 
 export default App
+
+{/* // </div> */}

@@ -20,13 +20,13 @@ const Services = () => {
   const data = {
     trilla: {
       cereales: [
-        "Soja",
-        "Maíz",
-        "Trigo",
-        "Arroz",
-        "Sorgo",
-        "Avena",
-        "Lino",
+        "Soja,",
+        "Maíz,",
+        "Trigo,",
+        "Arroz,",
+        "Sorgo,",
+        "Avena,",
+        "Lino,",
         "Consulte otros",
       ],
       detalle:
@@ -35,7 +35,7 @@ const Services = () => {
         "Contamos con:<br>- 2 cabezales maiceros de 8 surcos a 52cm <br>- 3 cabezales sojeros (dos de 19 pies y uno de 23 pies)<br>- cabezal arrocero de 19 pies <br>- cabezal recolector para cultivos como avena, coreandro, regrass.<br>Nuestras máquinas cuentan con picador de paja, desparramador de granza y son <b>doble tracción</b> pudiendo acceder a terrenos anegados sin dificultad.",
     },
     siembra: {
-      cereales: ["Soja", "Maíz", "Sorgo", "Consulte otros"],
+      cereales: ["Soja,", "Maíz,", "Sorgo,", "Consulte otros"],
       detalle:
         "El servicio se realiza con sembradora de granos gruesos de 16 surcos a 52,5 centímetros",
       modal: "modal siembra",
@@ -49,10 +49,10 @@ const Services = () => {
     taller: {
       servicios: [
         "Reparación de maquinarias agrícolas |",
-        "Balanceo de ejes",
+        "Balanceo de ejes |",
         "Rectificado de ejes |",
         "Fresado |",
-        "Servicio de tornería ",
+        "Servicio de tornería |",
         "Soldaduras en general |",
         "Consulte por trabajos especiales",
       ],
@@ -105,7 +105,7 @@ const Services = () => {
             }}
             className="text-white bg-green-700 py-2 px-6 rounded-3xl mt-4 lg:mt-10 hover:scale-95 transition"
           >
-            Mas detalles
+            Más detalles
           </button>
         </div>
 
@@ -176,7 +176,7 @@ const Services = () => {
             }}
             className="text-white bg-green-700 py-2 px-6 rounded-3xl mt-4 hover:scale-95 transition"
           >
-            Mas detalles
+            Más detalles
           </button>
         </div>
 
