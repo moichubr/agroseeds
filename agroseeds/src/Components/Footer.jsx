@@ -60,8 +60,7 @@ import {MdLocationOn} from "react-icons/md"
                     <div className="flex flex-col">
                       
                         <hr className="border-gray-500 mt-12 w-full"/>
-                        <p className="w-full text-center mt-12 text-gray-500">Copyright © 2023 Dev. Moira Brun | PH&Video: Ing. Agr. Luciano Durand - Todos los derechos reservados.</p>
-                        <p className="w-full text-center mb-4 text-gray-500">Contacto: brunmoira@gmail.com</p>
+                        <p className="w-full text-center mt-12 text-gray-500">Copyright © 2023 <a href="https://moirabrun.netlify.app" className="text-gray-400">Dev. Moira Brun</a> | PH&Video: Ing. Agr. Luciano Durand - Todos los derechos reservados.</p>
                     </div>
                 </div>
             </div>

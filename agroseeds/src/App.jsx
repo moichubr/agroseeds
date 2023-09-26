@@ -1,22 +1,23 @@
-
 import './App.css'
 import Landing from './Components/Landing'
 import AboutUs from './Components/AboutUs'
 import Services from './Components/Services'
 import Gallery from './Components/Gallery'
-// import Image from './Components/Image'
+import Values from './Components/Values'
 import Navbar from './Components/Navbar'
 import Footer from './Components/Footer'
 import WhatsappBtn from './Components/WhatsappBtn'
+
+
 function App() {
 
   return (
     <>
-    {/* // <div className='max-w-full w-[100vw] overflow-hidden object-cover'> */}
       <Navbar />
       <Landing />
+      <Values />
       <Services />
-      {/* <Image /> */}
+
       <AboutUs />
       <Gallery />
       <WhatsappBtn />
@@ -27,4 +28,3 @@ function App() {
 
 export default App
 
-{/* // </div> */}

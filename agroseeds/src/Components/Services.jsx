@@ -32,7 +32,7 @@ const Services = () => {
       detalle:
         "Al trabajar con nosotros dispondrá de 3 máquinas <b>New Holland</b> con doble tracción haciendo cada una entre 30 y 40 Has. por día, y 3 tractores con tolva con balanza que permiten llevar un control del rinde.",
       modal:
-        "Contamos con:<br>- 2 cabezales maiceros de 8 surcos a 52cm <br>- 3 cabezales sojeros (dos de 19 pies y uno de 23 pies)<br>- cabezal arrocero de 19 pies <br>- cabezal recolector para cultivos como avena, coreandro, regrass.<br>Nuestras máquinas cuentan con picador de paja, desparramador de granza y son <b>doble tracción</b> pudiendo acceder a terrenos anegados sin dificultad.",
+        "Contamos con:<br>- 2 cabezales maiceros de 8 surcos a 52cm <br>- 3 cabezales sojeros (dos de 19 pies y uno de 23 pies)<br>- cabezal arrocero de 19 pies <br>- cabezal recolector para cultivos como avena, coreandro, ryegrass.<br>Nuestras máquinas cuentan con picador de paja, desparramador de granza y son <b>doble tracción</b> pudiendo acceder a terrenos anegados sin dificultad.",
     },
     siembra: {
       cereales: ["Soja,", "Maíz,", "Sorgo,", "Consulte otros"],
@@ -147,7 +147,7 @@ const Services = () => {
               <LiaToolsSolid size={30} />
             </div>
             <h3 className="text-xl font-semibold my-2  text-center text-green-950">
-              TALLER
+              TALLER ESPECIALIZADO
             </h3>
             <p
               className="text-green-950 text-md lg:text-sm text-center lg:px-8 lg:mt-6"
