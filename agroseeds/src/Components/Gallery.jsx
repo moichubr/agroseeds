@@ -25,7 +25,7 @@ const goToSlide = (imgIndex) => {
   return (
     <section
       id="gallery"
-      className="mb-6 "
+      className="mb-12 "
     >
       {/* <div style={{ backgroundImage: `url(${wallpaper})` }}> */}
       <div className="container flex items-center justify-center mx-auto">

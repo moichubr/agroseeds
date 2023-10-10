@@ -57,10 +57,10 @@ import {MdLocationOn} from "react-icons/md"
                             <button onClick={handleClick} className="bg-red-500 hover:bg-red-600 hover:scale-95 transition justify-center text-center rounded-lg shadow px-10 py-3 flex items-center ">Consultar</button>
                         {/* </div> */}
                     </div>
-                    <div className="flex flex-col">
+                    <div className="flex flex-col mb-10">
                       
                         <hr className="border-gray-500 mt-12 w-full"/>
-                        <p className="w-full text-center mt-12 text-gray-500">Copyright © 2023 <a href="https://moirabrun.netlify.app" className="text-gray-400">Dev. Moira Brun</a> | PH&Video: Ing. Agr. Luciano Durand - Todos los derechos reservados.</p>
+                        <p className="w-full text-center mt-12 text-gray-500">Copyright © 2023 Agroseed - <a href="https://moirabrun.netlify.app" className="text-gray-400">Dev. Moira Brun</a> | PH&Video: Ing. Agr. Luciano Durand - Todos los derechos reservados.</p>
                     </div>
                 </div>
             </div>

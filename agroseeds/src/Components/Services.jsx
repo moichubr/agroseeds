@@ -66,7 +66,7 @@ const Services = () => {
   return (
     <section id="services">
       <div className="text-white lg:h-auto text-center font-thin pt-16">
-        <span className="text-green-800 lg:text-4xl text-3xl font-light">
+        <span className="text-green-800 lg:text-5xl text-3xl font-light">
           NUESTROS <span className="font-semibold">SERVICIOS</span>
         </span>
       </div>
@@ -77,7 +77,7 @@ const Services = () => {
             <div className="text-center w-fit p-2 mt-2 text-green-700">
               <GiSickle size={30} />
             </div>
-            <h3 className="text-xl font-semibold my-2 text-center text-green-950">
+            <h3 className="text-2xl lg:text-2xl font-semibold my-2 text-center text-green-950">
               COSECHA
             </h3>
             <p
@@ -111,7 +111,7 @@ const Services = () => {
             <div className="text-center w-fit p-2 mt-2 text-green-700">
               <LiaSeedlingSolid size={30} />
             </div>
-            <h3 className="text-xl font-semibold my-2 text-center text-green-950">
+            <h3 className="text-2xl lg:text-2xl font-semibold my-2 text-center text-green-950">
               SIEMBRA
             </h3>
             <p className="text-green-950 text-md lg:text-sm text-center lg:px-8 lg:mt-6">
@@ -146,7 +146,7 @@ const Services = () => {
             <div className="text-center w-fit p-2 mt-2 text-green-700">
               <LiaToolsSolid size={30} />
             </div>
-            <h3 className="text-xl font-semibold my-2  text-center text-green-950">
+            <h3 className="text-2xl font-semibold my-2 lg:text-2xl text-center text-green-950">
               TALLER ESPECIALIZADO
             </h3>
             <p
@@ -180,7 +180,7 @@ const Services = () => {
             <div className="text-center w-fit p-2 mt-2 text-green-700">
               <MdOutlineAgriculture size={35} />
             </div>
-            <h3 className="text-xl font-semibold my-2 text-center text-green-950">
+            <h3 className="text-2xl lg:text-2xl font-semibold my-2 text-center text-green-950">
               OTROS SERVICIOS
             </h3>
             <p className="text-green-950 text-md lg:text-sm text-center lg:mt-6 lg:px-8">
